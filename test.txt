@@ -19,4 +19,5 @@ Caused by: org.hibernate.NonUniqueResultException: Query did not return a unique
             @RequestBody String payload,
             @RequestHeader("X-GitHub-Event") String event,
             @RequestHeader("X-GitHub-Delivery") String delivery,
-            @RequestHeader(value = "X-Hub-Signature-256", required = false) String signature) {
+            @RequestHe
+            ㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇader(value = "X-Hub-Signature-256", required = false) String signature) {
