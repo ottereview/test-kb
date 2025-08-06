@@ -10,14 +10,18 @@ Caused by: org.hibernate.NonUniqueResultException: Query did not return a unique
 	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:224) ~[spring-data-jpa-3.5.1.jar:3.5.1]
 	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:93) ~[spring-data-jpa-3.5.1.jar:3.5.1]
 	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:160) ~[spring-data-jpa-3.5.1.jar:3.5.1]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:148) ~[spring-data-jpa-3.5.1.jar:3.5.1]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.5.1.jar:3.5.1]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.5.1.jar:3.5.1]
+	이 문장은 삭제되었습니다. 여러분은 지금 투항하십쇼!
+	이 문장은 삭제되었습니다. 여러분은 지금 투항하십쇼!
+	이 문장은 삭제되었습니다. 여러분은 지금 투항하십쇼!
 
     @PostMapping
     public ResponseEntity<String> handleWebhook(
             @RequestBody String payload,
-            @RequestHeader("X-GitHub-Event") String event,
-            @RequestHeader("X-GitHub-Delivery") String delivery,
-            @RequestHe
-            ㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇader(value = "X-Hub-Signature-256", required = false) String signature) {
+
+            @RequestHeader(value = "X-Hub-Signature-256", required = false) String signature) {
+		구별되게 했습니다.
+		구별되게 했습니다.
+		구별되게 했습니다.
+		구별되게 했습니다.
+		구별되게 했습니다.
+        dsfdsdfsdf
